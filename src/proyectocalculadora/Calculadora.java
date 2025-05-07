@@ -16,4 +16,8 @@ public class Calculadora {
     public double restar(double a, double b) {
         return a - b;
     }
+    
+    public double multiplicacion(double a, double b) {
+        return a * b;
+    }
 }
