@@ -43,6 +43,7 @@ public class ProyectoCalculadora {
             case 3:
                 resultado = calc.dividir(num1, num2);
                 System.out.println("Resultado de la división: " + resultado);
+                break;
             case 4:
                 resultado = calc.multiplicacion(num1, num2);
                 System.out.println("Resultado de la multiplicacion: " + resultado);
