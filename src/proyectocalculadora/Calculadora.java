@@ -19,7 +19,8 @@ public class Calculadora {
     
     public double dividir(double a, double b) {
         return a / b;
-        
+    }
+     
     public double multiplicacion(double a, double b) {
         return a * b;
     }
