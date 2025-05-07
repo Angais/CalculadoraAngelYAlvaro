@@ -26,6 +26,7 @@ public class ProyectoCalculadora {
         double num2 = sc.nextDouble();
 
         System.out.println("Elige la operación que quieras realizar: 1.Sumar  2.Restar");
+        System.out.println("4.Multiplicar");
         int opcion = sc.nextInt();
 
         double resultado;
@@ -37,6 +38,10 @@ public class ProyectoCalculadora {
             case 2:
                 resultado = calc.restar(num1, num2);
                 System.out.println("Resultado de la resta: " + resultado);
+                break;
+            case 4:
+                resultado = calc.multiplicacion(num1, num2);
+                System.out.println("Resultado de la multiplicacion: " + resultado);
                 break;
             default:
                 System.out.println("Opción no válida");
